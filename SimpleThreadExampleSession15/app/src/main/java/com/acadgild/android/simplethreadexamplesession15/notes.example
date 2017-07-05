@@ -1,0 +1,28 @@
+Async Task
+the methods
+now lets see if we can use the java threads in our Android Programmes.
+
+Use Case I:
+I am offline data for my application (like : google maps) :: Java 'Thread'
+This data will be not linked with UI anyhow !
+
+Use Case II :
+You are hitting a webservice to fetch cardView details :: Async Task
+
+Use Case III:
+You have just opened your application and
+you fetch the user info (SPLASH SCREEN) :: Async
+
+Use Case IV:
+All need data to work,Now sometimes the data that we get is to be shown to the user
+then and there .. So ultimately you are now suppose
+to work on UI Thread to update the data.
+
+You will always go with : AsyncTask
+
+But now when NOTTTTTT ?
+When the data I need is not be shown to the user at that very instance of time..
+it means I download data and keep it with till the time user comes up and works
+on the App.....
+Exmaple : Gmail
+Then we go around with Threads!!!!!!!
